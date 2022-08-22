@@ -1,6 +1,6 @@
 # Stock-Exchange
 
-A simple stock exchange system that accepts and matches orders built using Java with **Singleton design pattern**
+A simple matching engine system that accepts and matches orders built using Java with **Singleton design pattern**
 
 ## Usage Overview
 User can write commands to simulate submitting orders, viewing orders, and quoting stocks
