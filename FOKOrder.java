@@ -12,4 +12,7 @@ public class FOKOrder extends Order{
     }
 
     @Override 
+    public void buy(String name, double price, int quantity){
+        
+    }
 }
