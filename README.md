@@ -1,4 +1,4 @@
-# Stock-Exchange
+# Matching-Engine
 
 A simple matching engine system that accepts and matches orders built using Java with **Singleton design pattern**
 
