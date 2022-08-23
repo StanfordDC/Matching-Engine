@@ -7,6 +7,8 @@ public class IcebergOrder extends Order{
     static final HashMap<Order, Integer> buyRecords = stockExchange.getBuyOrders();
     static final ArrayList<Order> orderRecords = stockExchange.getOrderRecords();
     
+    private int size;
+    
     public IcebergOrder(String name, double price, int quantity, Side side, Type type){
         super(name, price, quantity, side, type);
     }
