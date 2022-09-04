@@ -13,4 +13,9 @@ public class IcebergOrder extends LimitOrder{
         super(name, price, quantity, side, type);
     }
 
+    @Override
+    public String toString(){
+        DecimalFormat df = new DecimalFormat("0.00");
+        return "You have placed an Iceberg "+this.getSide().toLower()+" order for "+this.getQuantity()+" "+this.getName()+" shares at $"+df.format(this.getPrice())+" each";
+    }
 }
