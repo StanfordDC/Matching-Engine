@@ -12,7 +12,11 @@ Simply use the command template provided to use the functions of the stock excha
 
 - **Submit buy market order** -> `BUY {STOCK_NAME} MKT {QUANTITY}`
 
- **Submit buy Immediate-Or-Cancel(IOC) order** -> `BUY {STOCK_NAME} IOC ${PRICE} {QUANTITY}`
+- **Submit buy Immediate-Or-Cancel(IOC) order** -> `BUY {STOCK_NAME} IOC ${PRICE} {QUANTITY}`
+
+- **Submit buy Fill-Or-Kill(FOK) order** -> `BUY {STOCK_NAME} FOK ${PRICE} {QUANTITY}`
+
+- **Submit buy Iceberg order** -> `BUY {STOCK_NAME} ICEBERG ${PRICE} {QUANTITY}`
 
 - **Submit sell limit order** -> `SELL {STOCK_NAME} LMT ${PRICE} {QUANTITY}`
 
