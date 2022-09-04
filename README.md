@@ -5,6 +5,20 @@ A simple matching engine system that accepts and matches orders built using Java
 ## Usage Overview
 User can write commands to simulate submitting orders, viewing orders, and quoting stocks (New order types incoming)
 
+## Order Types
+
+- **Limit order** -> Order is executed with a price restriction
+
+- **Market order** -> Order is executed without any price restriction
+
+- **Immediate-Or-Cancel(IOC) order** -> Order is executed immediately, remaining quantity will be cancelled
+
+- **Fill-Or-Kill(FOK) order** -> Order is executed as a whole quantity or none at all
+
+- **Iceberg order** -> Order is executed only a portion of the quantity
+
+
+
 ## Functionalities
 Use the command template provided to use the functions of the stock exchange.
 
