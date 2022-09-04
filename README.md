@@ -3,7 +3,7 @@
 A simple matching engine system that accepts and matches orders built using Java with **Singleton design pattern**
 
 ## Usage Overview
-User can write commands to simulate submitting orders, viewing orders, and quoting stocks
+User can write commands to simulate submitting orders, viewing orders, and quoting stocks (New order types incoming)
 
 ## Functionalities
 Simply use the command template provided to use the functions of the stock exchange.
