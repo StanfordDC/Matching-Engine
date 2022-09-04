@@ -1,6 +1,6 @@
 import java.util.*;
 import java.text.DecimalFormat;
-public class IcebergOrder extends Order{
+public class IcebergOrder extends LimitOrder{
 
     static final StockExchange stockExchange = StockExchange.getStockExchange();
     static final HashMap<Order, Integer> sellRecords = stockExchange.getSellOrders();
