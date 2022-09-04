@@ -15,7 +15,7 @@ User can write commands to simulate submitting orders, viewing orders, and quoti
 
 - **Fill-Or-Kill(FOK) order** -> Order is executed as a whole quantity or none at all
 
-- **Iceberg order** -> Order is executed only a portion of the quantity
+- **Iceberg order** -> Order is executed with only a portion of the quantity
 
 
 
