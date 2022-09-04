@@ -73,7 +73,7 @@ public class Main {
         Order order;
 
         //Invalid command if limit order length is not 5 or market order length is not 4
-        if((orderType == Type.LMT && (command.length < 5 || command.length > 5)) || (orderType == Type.MKT && (command.length < 4 || command.length > 4))){
+        if((orderType != Type.MKT && (command.length < 5 || command.length > 5)) || (orderType == Type.MKT && (command.length < 4 || command.length > 4))){
             throw new IllegalArgumentException(first);
         }
         
