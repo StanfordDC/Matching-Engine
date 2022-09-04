@@ -6,17 +6,18 @@ A simple matching engine system that accepts and matches orders built using Java
 User can write commands to simulate submitting orders, viewing orders, and quoting stocks (New order types incoming)
 
 ## Functionalities
-Simply use the command template provided to use the functions of the stock exchange.
+Use the command template provided to use the functions of the stock exchange.
 
-- **Submit buy Limit order** -> `BUY {STOCK_NAME} LMT ${PRICE} {QUANTITY}`
+### Submit buy orders
+- **Limit order** -> `BUY {STOCK_NAME} LMT ${PRICE} {QUANTITY}`
 
-- **Submit buy Market order** -> `BUY {STOCK_NAME} MKT {QUANTITY}`
+- **Market order** -> `BUY {STOCK_NAME} MKT {QUANTITY}`
 
-- **Submit buy Immediate-Or-Cancel(IOC) order** -> `BUY {STOCK_NAME} IOC ${PRICE} {QUANTITY}`
+- **Immediate-Or-Cancel(IOC) order** -> `BUY {STOCK_NAME} IOC ${PRICE} {QUANTITY}`
 
-- **Submit buy Fill-Or-Kill(FOK) order** -> `BUY {STOCK_NAME} FOK ${PRICE} {QUANTITY}`
+- **Fill-Or-Kill(FOK) order** -> `BUY {STOCK_NAME} FOK ${PRICE} {QUANTITY}`
 
-- **Submit buy Iceberg order** -> `BUY {STOCK_NAME} ICEBERG ${PRICE} {QUANTITY}`
+- **Iceberg order** -> `BUY {STOCK_NAME} ICEBERG ${PRICE} {QUANTITY}`
 
 - **Submit sell Limit order** -> `SELL {STOCK_NAME} LMT ${PRICE} {QUANTITY}`
 
