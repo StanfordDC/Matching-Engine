@@ -11,11 +11,11 @@ User can write commands to simulate submitting orders, viewing orders, and quoti
 
 - **Market order** -> Order is executed without any price restriction
 
-- **Immediate-Or-Cancel(IOC) order** -> Order is executed immediately, remaining quantity will be cancelled
+- **Immediate-Or-Cancel(IOC) order** -> Order is executed immediately and remaining quantity will be cancelled
 
-- **Fill-Or-Kill(FOK) order** -> Order is executed as a whole quantity or none at all
+- **Fill-Or-Kill(FOK) order** -> The whole quantity of an order is executed or none at all and cancelled
 
-- **Iceberg order** -> Order is executed with only a portion of the quantity
+- **Iceberg order** -> A portion of the quantity of an order is executed
 
 
 
