@@ -54,7 +54,7 @@ public class Main {
         String orderName = command[1];
 
         //Invalid order type
-        if(!command[2].equals("LMT") && !command[2].equals("MKT")){
+        if(!command[2].equals("LMT") && !command[2].equals("MKT") && !command[2].equals("IOC") && !command[2].equals("FOK") && !command[2].equals("ICEBERG")){
             throw new IllegalArgumentException("Invalid order type");
         }
 
