@@ -8,9 +8,9 @@ User can write commands to simulate submitting orders, viewing orders, and quoti
 ## Functionalities
 Simply use the command template provided to use the functions of the stock exchange.
 
-- **Submit buy limit order** -> `BUY {STOCK_NAME} LMT ${PRICE} {QUANTITY}`
+- **Submit buy Limit order** -> `BUY {STOCK_NAME} LMT ${PRICE} {QUANTITY}`
 
-- **Submit buy market order** -> `BUY {STOCK_NAME} MKT {QUANTITY}`
+- **Submit buy Market order** -> `BUY {STOCK_NAME} MKT {QUANTITY}`
 
 - **Submit buy Immediate-Or-Cancel(IOC) order** -> `BUY {STOCK_NAME} IOC ${PRICE} {QUANTITY}`
 
@@ -18,9 +18,9 @@ Simply use the command template provided to use the functions of the stock excha
 
 - **Submit buy Iceberg order** -> `BUY {STOCK_NAME} ICEBERG ${PRICE} {QUANTITY}`
 
-- **Submit sell limit order** -> `SELL {STOCK_NAME} LMT ${PRICE} {QUANTITY}`
+- **Submit sell Limit order** -> `SELL {STOCK_NAME} LMT ${PRICE} {QUANTITY}`
 
-- **Submit sell market order** -> `SELL {STOCK_NAME} MKT {QUANTITY}`
+- **Submit sell Market order** -> `SELL {STOCK_NAME} MKT {QUANTITY}`
 
 - **Submit sell Immediate-Or-Cancek(IOC) order** -> `SELL {STOCK_NAME} IOC ${PRICE} {QUANTITY}`
 
