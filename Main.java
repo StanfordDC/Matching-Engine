@@ -57,8 +57,17 @@ public class Main {
         if(!command[2].equals("LMT") && !command[2].equals("MKT") && !command[2].equals("IOC") && !command[2].equals("FOK") && !command[2].equals("ICEBERG")){
             throw new IllegalArgumentException("Invalid order type");
         }
-
-        Type orderType = command[2].equals("LMT") ? Type.LMT : Type.MKT;
+        
+        Type orderType = Type.LMT;
+        if(command[2].equals("MKT")){
+            orderType = Type.MKT;
+        } else if(command[2].equals("IOC")){
+            orderType = Type.IOC;
+        } else if(command[2].equals("FOK")){
+            orderType = Type.FOK;
+        } else if(command[2].equals("ICEBERG")){
+            orderType = Type.ICEBERG;
+        }
         double orderPrice = 0.0;
         int orderQuantity = 0;
         Order order;
