@@ -22,6 +22,12 @@ Simply use the command template provided to use the functions of the stock excha
 
 - **Submit sell market order** -> `SELL {STOCK_NAME} MKT {QUANTITY}`
 
+- **Submit sell Immediate-Or-Cancek(IOC) order** -> `SELL {STOCK_NAME} IOC ${PRICE} {QUANTITY}`
+
+- **Submit sell Fill-Or-Kill(FOK) order** -> `SELL {STOCK_NAME} FOK ${PRICE} {QUANTITY}`
+
+- **Submit sell Iceberg order** -> `SELL {STOCK_NAME} ICEBERG ${PRICE} {QUANTITY}`
+
 - **View submitted orders and their status** -> `VIEW ORDERS`
 
 - **Quote orders** -> `QUOTE {STOCK_NAME}`
